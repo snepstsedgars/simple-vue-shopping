@@ -1,9 +1,9 @@
 import firebase from 'firebase'
 
 const config = {
-  apiKey: "AIzaSyAfp2AbaPngFz5UMAOFCX8-AgibMrwsajM",
-  authDomain: "simple-vue-shopping-199e7.firebaseapp.com",
-  databaseURL: "https://simple-vue-shopping-199e7-default-rtdb.firebaseio.com/"
+  apiKey: "AIzaSyB_rekxP9IB9U2vJPnin1UvRv__t3kS0MY",
+  authDomain: "fir-app-335320.firebaseapp.com",
+  databaseURL: "https://firebase-app-335320-default-rtdb.firebaseio.com/"
 }
 
 firebase.initializeApp(config);
