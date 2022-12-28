@@ -1,9 +1,11 @@
-rm -rf ./firebase-public-root
+rm -rf ./dist
 
-mkdir ./firebase-public-root
+rm -rf ./dist-firebase-public
 
-yarn run build
+mkdir ./dist-firebase-public
 
-cp -r ./public/* ./firebase-public-root
+npm run build
 
-cp -r ./dist/* ./firebase-public-root
+cp -r ./public/* ./dist-firebase-public
+
+cp -r ./dist/* ./dist-firebase-public
